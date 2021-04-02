@@ -13,5 +13,6 @@ RxJS 指的是 Functional Reactive Programming extensions for JavsScript，
 `
 面向流的编程基本过程就是，创建代表原始输入的流，对它们进行组合、过滤等各种操作，最后生成我们感兴趣的结果流，监听结果流（subscribe）并进行相应操作即可，监听的时候提供三个函数，分别用于处理流产生了值，流产生了错误以及流结束这三种情况
 `
+[深入浅出Rxjs Code Repo](https://github1s.com/mocheng/dissecting-rxjs)
 
 [RxJS Marbles](https://rxmarbles.com/#from)
