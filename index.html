@@ -1,3 +1,18 @@
-<h1>RxJS playground</h1>
-
-<p>Open the console below to see results</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>深入浅出 函数响应式编程 Rxjs</title>
+  </head>
+  <body>
+    <div>
+     <div>测试你对时间的感觉.</div><br/>
+      <button id="hold-me">按住我一秒钟然后松手</button>
+      <div> 你的时间: <span id="hold-time"></span>毫秒</div>
+      <div id="rank"></div><br/>
+      <input type="text" id="input"/>
+    </div>
+    <script src="https://unpkg.com/rxjs@5.5.2/bundles/Rx.min.js"></script>
+    <script src="./src/timingSenseTest.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  </body>
+</html>
